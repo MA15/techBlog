@@ -23,7 +23,12 @@ a {
   color: var(--dark);
   text-decoration: none;
 }
-
+h3{
+  color: black;
+}
+h4{
+  color: black;
+}
 a:visited {
   color: inherit;
 }

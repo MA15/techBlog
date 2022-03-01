@@ -4,6 +4,7 @@ const withAuth=(req,res,next)=> {
       res.redirect('/login');
   } else {
       //if the user is logged in, excute the route function that will allow them to view their movie list
+      
       next();
   }
 };
